@@ -1,5 +1,5 @@
 # DiscordEmbedSender
-**Discord.js v12系で作られています。気が向いたら書き換えます**
+**Discord.js v12系で作られています。気が向いたら書き換えます**<br>
 トークンをDISCORD_TOKEN.jsonに置いといてね♡
 ```json
 {
