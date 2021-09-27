@@ -1,0 +1,23 @@
+{
+  "name": "discordembedsender",
+  "version": "1.0.0",
+  "description": "トークンをDISCORD_TOKEN.jsonに置いといてね♡\r ```json\r {\r     \"アカウント名\": \"TOKEN HERE\"\r }\r ```\r # 使い方\r ```bash\r $ node main.js 設定ファイル名\r ```\r # アカウントの併用について\r 設定ファイル内のconfig.accountでアカウント名を指定してください。\r DISCORD_TOKEN.json内で指定している名前と完全に一致する必要があります。",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hiro527/DiscordEmbedSender.git"
+  },
+  "author": "Hiro",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Hiro527/DiscordEmbedSender/issues"
+  },
+  "homepage": "https://github.com/Hiro527/DiscordEmbedSender#readme",
+  "dependencies": {
+    "discord-buttons": "^4.0.0",
+    "discord.js": "^12.5.3"
+  }
+}
