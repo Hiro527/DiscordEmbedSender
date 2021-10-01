@@ -16,7 +16,7 @@ client.on('ready', async () => {
         await configFile.execute(client, channel);
     } else {
         if (configFile.config.ping) {
-            await channel.send(`${configFile.config.ping === 'everyone' ? '@everyone' : `<@${configFile.config.ping}>`}`, { embed: configFile.embed, files: configFile.files ? configFile.files : null }).catch(console.log());
+            await channel.send(`${configFile.config.ping === 'everyone' ? '@everyone' : `<@&${configFile.config.ping}>`}`, { embed: configFile.embed, files: configFile.files ? configFile.files : null }).catch(console.log());
         } else {
             await channel.send({ embed: configFile.embed, files: configFile.files ? configFile.files : null }).catch(console.log());
         }
